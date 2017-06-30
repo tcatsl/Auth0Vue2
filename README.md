@@ -1,6 +1,6 @@
-# test
+# This is a basic integration of Auth0 into Vue.js with login and logout buttons.
+To use this repository, in addition to the installation instructions below, enter your credentials into auth.js inside the src folder and enable http://localhost:8080/callback as a valid callback url for your Auth0 client settings, and add http://localhost:8080 as an allowed origin.
 
-> A Vue.js project
 
 ## Build Setup
 
