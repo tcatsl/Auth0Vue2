@@ -10,7 +10,7 @@ import { isLoggedIn, login, logout } from '../auth';
 
 
 export default {
-  name: 'app-nav',
+  name: 'Auth',
   methods: {
     handleLogin() {
       login();
