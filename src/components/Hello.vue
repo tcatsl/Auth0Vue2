@@ -1,9 +1,9 @@
 <template>
 <div>
-
+<auth id="auth"></auth>
 </div>
 </template>
-<auth id="auth"></auth>
+
 <script>
 import Auth from '@/components/Auth'
 export default {

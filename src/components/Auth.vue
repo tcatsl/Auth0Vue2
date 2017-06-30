@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-default">
-        <button id="logOut" class="btn" v-show="isLoggedIn" @click="handleLogout()">Log out</button>
-        <button id="logIn" class="btn" v-show="!isLoggedIn" @click="handleLogin()">Log In</button>
+        <button id="logOut" class="btn" v-if="isLoggedIn()" @click="handleLogout()">Log out</button>
+        <button id="logIn" class="btn" v-if="!isLoggedIn()" @click="handleLogin()">Log In</button>
   </nav>
 </template>
 
@@ -10,7 +10,7 @@ import { isLoggedIn, login, logout } from '../auth';
 
 
 export default {
-  name: 'Auth',
+  name: 'auth',
   methods: {
     handleLogin() {
       login();
