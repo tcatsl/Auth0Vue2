@@ -3,10 +3,14 @@
 
 </div>
 </template>
-
+<auth id="auth"></auth>
 <script>
+import Auth from '@/components/Auth'
 export default {
-  name: 'Hello'
+  name: 'Hello',
+  components: {
+    'auth': Auth
+  }
 }
 </script>
 
