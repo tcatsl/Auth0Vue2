@@ -5,8 +5,8 @@ import Auth0Lock from 'auth0-lock'
 const ID_TOKEN_KEY = 'id_token'
 const ACCESS_TOKEN_KEY = 'access_token'
 //insert credentials here
-const CLIENT_ID = '4LSs0DR68CpppXyNSt8Qmpzi6LY57FcI'
-const CLIENT_DOMAIN = 'tcats.auth0.com'
+const CLIENT_ID = ''
+const CLIENT_DOMAIN = 'XXXXXXX.auth0.com'
 const REDIRECT = 'http://localhost:8080/callback'
 
 var auth = new auth0.WebAuth({
