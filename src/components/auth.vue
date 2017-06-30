@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-default">
-        <button id="logOut" class="btn btn-danger log" v-show="true == false" @click="handleLogout()">Log out</button>
-        <button id="logIn" class="btn btn-info log" v-show="true == false" @click="handleLogin()">Log In</button>
+        <button id="logOut" class="btn" v-show="isLoggedIn" @click="handleLogout()">Log out</button>
+        <button id="logIn" class="btn" v-show="!isLoggedIn" @click="handleLogin()">Log In</button>
   </nav>
 </template>
 
